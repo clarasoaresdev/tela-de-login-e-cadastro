@@ -1,0 +1,117 @@
+@keyframes animacao1 {
+    to{ transform: translateY(-30px);
+    }
+}
+body{
+    background-color: rgb(231, 184, 219);
+    font-family: "Roboto", sans-serif;
+}
+h1{
+    position: relative;
+    color: rgb(245, 23, 189);
+    left: 810px;
+    top:100px;
+    z-index: 1;
+    width: 300px;
+}
+h4{
+    position: relative;
+    color: #ffFfff;
+    top: 10px;
+    left: 60px;
+    font-size: 30px;
+
+}
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.parte-colorida{
+    position: absolute;
+    background-color: rgb(245, 23, 189);
+    width: 850px;
+    height: 480px;
+    top: 80px;
+    left: 250px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 5px rgb(141, 133, 139);
+}
+.parte-colorida img{
+    position: relative;
+    width: 220px;
+    height: 300px;
+    left: 60px;
+    animation: animacao1 1s infinite alternate;
+}
+.tela{
+    position:relative;
+    background-color:rgb(255, 255, 255);
+    width: 500px;
+    height: 480px;
+    top: -1px;
+    left: 600px;
+    z-index:0;
+    border-radius:0 20px 20px 0px;
+}
+.email{
+    position: relative;
+    background-color: rgb(218, 214, 214);
+    top: 170px;
+    width: 300px;
+    height: 50px;
+    left: 100px;
+    border: none;
+    border-radius: 5px;
+}
+.email:hover{
+    background-color: rgb(150, 145, 145);
+    border: none;
+}
+.email::placeholder{
+    padding: 30px;
+    font-size:14px;
+}
+.senha{
+    position: relative;
+    background-color: rgb(218, 214, 214);
+    top: 200px;
+    width: 300px;
+    height: 50px;
+    left: 100px;
+    border: none;
+    border-radius: 5px;
+
+}
+.senha:hover{
+    background-color: rgb(150, 145, 145);
+}
+.senha::placeholder{
+    padding: 100px;
+    font-size:14px;
+}
+.botao-entrar{
+    position: relative;
+    background-color:#f517bd;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    top:240px;
+    left:190px;
+    width:120px;
+    height:50px;
+    border:none;
+    border-radius:5px;
+}
+
+.botao-entrar:hover{
+    transform:scale(1.1)
+}
+
+a{
+    color: rgb(245, 23, 189);
+    font-size: 16px;
+    position: relative;
+    top: 320px;
+    left: 120px;
+
+}
